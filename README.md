@@ -45,16 +45,11 @@ It's used in academic & research demos for **GPU parallel algorithms**.
 ```
 cuda-bitonic-sort/
 ├── README.md
-├── notebooks/
-│   └── bitonic_sort_cuda.ipynb
-├── src/
-│   └── bitonic_sort.py
-├── results/
-│   └── performance_results.csv
+├── bitonic_sort.ipynb
 ├── images/
-│   └── runtime_plot.png
-└── report/
-    └── CUDA_Bitonic_Sort_Report.pdf
+│   └── sort_time.png
+│   └── sorting_time_comparison..png
+
 ```
 
 ---
@@ -75,7 +70,7 @@ Runtime > Change runtime type > GPU
 
 ### 3️⃣ Run Notebook
 
-Open: `notebooks/bitonic_sort_cuda.ipynb`
+Open: `bitonic_sort.ipynb`
 
 ---
 
@@ -100,11 +95,8 @@ Open: `notebooks/bitonic_sort_cuda.ipynb`
 
 ##  **Performance Graph**
 
-*(add image here)*
+![](images/sorting_time_comparison.png)
 
-```
-images/runtime_plot.png
-```
 
 ---
 
