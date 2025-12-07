@@ -1,4 +1,11 @@
 # CUDA Bitonic Sort — GPU Sorting in Google Colab
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-Parallel_Computing-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![PyCUDA](https://img.shields.io/badge/PyCUDA-GPU_Programming-00599C?style=for-the-badge&logo=python&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-GPU%20(T4)-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Sorting Algorithm](https://img.shields.io/badge/Algorithm-Bitonic_Sort-blueviolet?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-003B57?style=for-the-badge&logo=python&logoColor=white)
+
 
 This project implements the **Bitonic Sorting Algorithm on GPU using CUDA (PyCUDA)** and compares performance against CPU sorting.
 The goal is to understand **parallel sorting networks** and observe when GPU parallelism becomes beneficial.
